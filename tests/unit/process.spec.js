@@ -1,0 +1,12 @@
+describe('jjAbout',()=>{
+    it("teat01",()=>{
+        console.log(process.env)
+    })
+    it("teat02",()=>{
+        process.nextTick(()=>{
+            console.log("xxx");
+            document;
+        })
+    });
+    console.log("lll");
+});
